@@ -7,7 +7,7 @@
 3. Gavin Ippolito: *insert role*
 4. Isaiah Andrade: *insert role*
     - [Email](isaiah_andrade@student.uml.edu)
-    - [Photo](/images/team_members/isaiah_andrade.png)
+    - [Photo](/images/team_members/isaiah_andrade.jpg)
 
 ## Project Background
 
