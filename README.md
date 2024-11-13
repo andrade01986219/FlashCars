@@ -3,9 +3,10 @@
 ## Contact Info
 
 1. James Walsh: *insert role*
-2. Salwan Sabil: *insert role*
-3. Gavin Ippolito: *insert role*
-4. Isaiah Andrade: *insert role*
+    - [Email](james.25.walsh@gmail.com)
+3. Salwan Sabil: *insert role*
+4. Gavin Ippolito: *insert role*
+5. Isaiah Andrade: *insert role*
     - [Email](isaiah_andrade@student.uml.edu)
     - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg)
 
