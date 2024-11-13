@@ -7,7 +7,7 @@
 3. Salwan Sabil: *insert role*
 4. Gavin Ippolito: *insert role*
 5. Isaiah Andrade: *insert role*
-    - [Email](isaiah_andrade@student.uml.edu)
+    - Email: isaiah_andrade@student.uml.edu
     - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg)
 
 ## Project Background
