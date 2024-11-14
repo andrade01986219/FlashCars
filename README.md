@@ -9,7 +9,7 @@
    - Email: gavin_ippolito@student.uml.edu
 6. Isaiah Andrade: *insert role*
     - Email: isaiah_andrade@student.uml.edu
-    - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg){width=300px}
+    - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg)
 
 ## Project Background
 
