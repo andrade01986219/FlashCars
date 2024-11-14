@@ -6,7 +6,7 @@
     - [Email](james.25.walsh@gmail.com)
 3. Salwan Sabil: *insert role*
 4. Gavin Ippolito: *insert role*
-   - [Email](gavin_ippolito@student.uml.edu)
+   - Email: gavin_ippolito@student.uml.edu
 6. Isaiah Andrade: *insert role*
     - Email: isaiah_andrade@student.uml.edu
     - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg)
