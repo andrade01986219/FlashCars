@@ -3,7 +3,7 @@
 ## Contact Info
 
 1. James Walsh: *insert role*
-    - Email:james.25.walsh@gmail.com
+    - Email: james.25.walsh@gmail.com
     - [LinkedIn](https://www.linkedin.com/in/james-walsh-8a53a6265/)
     - ![James Profile](/images/team_members/james_walsh_profile.jpg)
 3. Salwan Sabil: *insert role*
@@ -17,14 +17,15 @@
 ## Project Background
 
 - This project is a prototype for an educational game with the target audience of 4th-5th graders.
-The goal of this prototype is for kids to learn about some of the typical subjects of school in a
-fun way.
+The goal of this prototype is for kids to learn about some of the typical school subjects in a
+fun way. The game also gives students the option to make their own study set. This allows them
+to study for an upcoming exam, for example.
 
 ## Project Description
 
-- FlashCars allows for a maximum of 4 players to race against each other by answering questions
+- FlashCars allows a maximum of 4 players to race against each other by answering questions
 about a subject of their choice. Once the race starts, each user is prompted to answer questions
-about their subject and the first to make it to the end wins!
+about their subject, and the first to make it to the end wins!
 
 - Included in this repo:
     1. Prototype
@@ -38,3 +39,9 @@ about their subject and the first to make it to the end wins!
         - Sequence
     7. Project Agenda
     8. Original Project Description
+    9. Domain Research
+
+## Domain Research
+To ensure FlashCars effectively aligns with key educational topics for 4th and 5th graders, the following resources were utilized.<br>
+>    - [Massachusetts Department of Education](https://www.doe.mass.edu/frameworks/current.html)<br>
+>    - [Common Core State Standards](https://corestandards.org/)
