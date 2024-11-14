@@ -3,7 +3,9 @@
 ## Contact Info
 
 1. James Walsh: *insert role*
-    - [Email](james.25.walsh@gmail.com)
+    - Email:james.25.walsh@gmail.com
+    - [LinkedIn](https://www.linkedin.com/in/james-walsh-8a53a6265/)
+    - ![James Profile](/images/team_members/james_walsh.jpg)
 3. Salwan Sabil: *insert role*
 4. Gavin Ippolito: *insert role*
    - Email: gavin_ippolito@student.uml.edu
