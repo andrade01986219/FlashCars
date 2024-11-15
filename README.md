@@ -7,7 +7,9 @@
     - [LinkedIn](https://www.linkedin.com/in/james-walsh-8a53a6265/)
     - ![James Profile](/images/team_members/james_walsh_profile.jpg)
 3. Salwan Sabil: *insert role*
-4. Gavin Ippolito: *insert role*
+   - Email: salwan_sabil@student.uml.edu
+   - ![Salwan Profile](/images/team_members/salwan_sabil_profile.jpg)
+5. Gavin Ippolito: *insert role*
    - Email: gavin_ippolito@student.uml.edu
 6. Isaiah Andrade: *insert role*
     - Email: isaiah_andrade@student.uml.edu
