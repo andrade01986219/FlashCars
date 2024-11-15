@@ -37,8 +37,7 @@ about their subject, and the first to make it to the end wins!
     5. Requirements List
     6. Diagrams:
         - Use-Case
-        - Class
-        - Sequence
+        - Class & Sequence
     7. Project Agenda
     8. Original Project Description
     9. Domain Research
