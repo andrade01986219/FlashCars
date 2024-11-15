@@ -31,16 +31,16 @@
 
 ## Contact Info
 
-1. James Walsh: *insert role*
+1. James Walsh: Developer
     - Email: james.25.walsh@gmail.com
     - [LinkedIn](https://www.linkedin.com/in/james-walsh-8a53a6265/)
     - ![James Profile](/images/team_members/james_walsh_profile.jpg)
-3. Salwan Sabil: *insert role*
+3. Salwan Sabil: Developer
    - Email: salwan_sabil@student.uml.edu
    - ![Salwan Profile](/images/team_members/salwan_sabil_profile.jpg)
-5. Gavin Ippolito: *insert role*
+5. Gavin Ippolito: Developer
    - Email: gavin_ippolito@student.uml.edu
-6. Isaiah Andrade: *insert role*
+6. Isaiah Andrade: Developer
     - Email: isaiah_andrade@student.uml.edu
     - [LinkedIn](https://www.linkedin.com/in/isaiah-andrade/)
     - ![Isaiah's Senior Photo](/images/team_members/isaiah_andrade.jpg)
