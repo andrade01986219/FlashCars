@@ -1,4 +1,33 @@
-# FlashCars
+```
+  _____ _           _      ____
+ |  ___| | __ _ ___| |__  / ___|__ _ _ __ ___
+ | |_  | |/ _` / __| '_ \| |   / _` | '__/ __|
+ |  _| | | (_| \__ | | | | |__| (_| | |  \__ \
+ |_|   |_|\__,_|___|_| |_|\____\__,_|_|  |___/
+```
+
+<details>
+<summary>Table of Contents</summary>
+
+- [Contact Info](#contact-info)
+- [Project Background](#project-background)
+- [Project Description](#project-description)
+- [Domain Research](#domain-research)
+
+</details>
+
+## Included in this repo
+
+- [Prototype](./prototype/flashCars.py)
+- [Presentation Slides](./presentation_slides.pdf)
+- [SRS Document](./SRS.docx.pdf)
+- [Demonstration Video](./demonstration_video.mp4)
+- [Requirements List](./requirements_and_diagrams/project_requirements.pdf)
+- Diagrams:
+    - [Use-Case](./requirements_and_diagrams/use_case_diagram.pdf)
+    - [Class & Sequence](./requirements_and_diagrams/class_and_sequence_diagrams.pdf)
+- [Original Project Description](./original_project_description.pdf)
+
 
 ## Contact Info
 
@@ -18,29 +47,16 @@
 
 ## Project Background
 
-- This project is a prototype for an educational game with the target audience of 4th-5th graders.
+This project is a prototype for an educational game with the target audience of 4th-5th graders.
 The goal of this prototype is for kids to learn about some of the typical school subjects in a
 fun way. The game also gives students the option to make their own study set. This allows them
 to study for an upcoming exam, for example.
 
 ## Project Description
 
-- FlashCars allows a maximum of 4 players to race against each other by answering questions
+FlashCars allows a maximum of 4 players to race against each other by answering questions
 about a subject of their choice. Once the race starts, each user is prompted to answer questions
 about their subject, and the first to make it to the end wins!
-
-- Included in this repo:
-    1. Prototype
-    2. Presentation Slides
-    3. SRS Document
-    4. Demonstration Video
-    5. Requirements List
-    6. Diagrams:
-        - Use-Case
-        - Class & Sequence
-    7. Project Agenda
-    8. Original Project Description
-    9. Domain Research
 
 ## Domain Research
 To ensure FlashCars effectively aligns with key educational topics for 4th and 5th graders, the following resources were utilized.<br>
