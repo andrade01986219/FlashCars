@@ -40,6 +40,8 @@
    - ![Salwan Profile](/images/team_members/salwan_sabil_profile.jpg)
 5. Gavin Ippolito: Developer
    - Email: gavin_ippolito@student.uml.edu
+   - [LinkedIn](https://www.linkedin.com/in/gavin-ippolito-a6a1572a0/)
+   - ![Gavin Profile](/images/team members/gavin ippolito profile.jpg)
 6. Isaiah Andrade: Developer
     - Email: isaiah_andrade@student.uml.edu
     - [LinkedIn](https://www.linkedin.com/in/isaiah-andrade/)
