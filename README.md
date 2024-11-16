@@ -1,10 +1,4 @@
-```
-  _____ _           _      ____
- |  ___| | __ _ ___| |__  / ___|__ _ _ __ ___
- | |_  | |/ _` / __| '_ \| |   / _` | '__/ __|
- |  _| | | (_| \__ | | | | |__| (_| | |  \__ \
- |_|   |_|\__,_|___|_| |_|\____\__,_|_|  |___/
-```
+<p align="center"><img src="./images/FlashCars.jpg" "alt="FlashCars"></p>
 
 <details>
 <summary>Table of Contents</summary>
@@ -12,7 +6,7 @@
 - [Contact Info](#contact-info)
 - [Project Background](#project-background)
 - [Project Description](#project-description)
-- [Domain Research](#domain-research)
+- [Domain Research](#bibliography)
 
 </details>
 
@@ -60,7 +54,9 @@ FlashCars allows a maximum of 4 players to race against each other by answering 
 about a subject of their choice. Once the race starts, each user is prompted to answer questions
 about their subject, and the first to make it to the end wins!
 
-## Domain Research
+## Bibliography
 To ensure FlashCars effectively aligns with key educational topics for 4th and 5th graders, the following resources were utilized.<br>
 >    - [Massachusetts Department of Education](https://www.doe.mass.edu/frameworks/current.html)<br>
 >    - [Common Core State Standards](https://corestandards.org/)
+
+>    - [This image was generated with the assistance of AI.](./images/FlashCars.jpg)
