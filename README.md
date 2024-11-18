@@ -62,3 +62,14 @@ To ensure FlashCars effectively aligns with key educational topics for 4th and 5
 >    - [This image was generated with the assistance of chatGPT from OpenAI.](./images/FlashCars.jpg)
 >        - Prompt: 'can you create some cool ascii art for our game readme? its called "FlashCars"'
 >        - It instead provided the image above, which we edited to get rid of the words "ASCII ART."
+
+>    - The following sources were used to create our '.gitattributes' and '.gitignore' files for our unity project. A YouTube account
+>      by the name of 'Infallible Code' provided help on using Git LFS, along with knowing what files to track using LFS, add, and ignore,
+>      along with a '.gitattributes' and '.gitignore' file to use to make tracking and ignoring files easier. The '.gitignore' file was
+>      provided on Github that was created specifically for Unity projects. I have provided links to their YouTube channel, the exact video
+>      that we watched, and the link they provided in the YouTube description that included links to download the '.gitattributes' and
+>      '.gitignore' files.<br>
+
+>        - [Infallible Code Channel](https://www.youtube.com/@InfallibleCode)
+>        - [Git LFS Video](https://www.youtube.com/watch?v=_ewoEQFEURg&t=333s)
+>        - [.gitattributes & .gitignore Download](https://www.patreon.com/posts/63076977)
