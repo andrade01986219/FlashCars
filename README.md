@@ -59,4 +59,6 @@ To ensure FlashCars effectively aligns with key educational topics for 4th and 5
 >    - [Massachusetts Department of Education](https://www.doe.mass.edu/frameworks/current.html)<br>
 >    - [Common Core State Standards](https://corestandards.org/)
 
->    - [This image was generated with the assistance of AI.](./images/FlashCars.jpg)
+>    - [This image was generated with the assistance of chatGPT from OpenAI.](./images/FlashCars.jpg)
+>        - Prompt: 'can you create some cool ascii art for our game readme? its called "FlashCars"'
+>        - It instead provided the image above, which we edited to get rid of the words "ASCII ART."
