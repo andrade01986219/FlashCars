@@ -14,7 +14,7 @@
 
 - [Prototype](./prototype/flashCars.py)
 - [Presentation Slides](./presentation_slides.pdf)
-- [SRS Document](./SRS.docx.pdf)
+- [SRS Document](./SRS.pdf)
 - [Demonstration Video](./demonstration_video.mp4)
 - [Requirements List](./requirements_and_diagrams/project_requirements.pdf)
 - Diagrams:
