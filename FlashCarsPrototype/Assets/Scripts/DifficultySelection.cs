@@ -7,6 +7,7 @@ public class DifficultySelection : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll();
         if (PlayerPrefs.HasKey("SelectedDifficulty"))
         {
             int difficultyIndex = PlayerPrefs.GetInt("SelectedDifficulty");

@@ -7,6 +7,7 @@ public class SubjectSelection : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll();
         if (PlayerPrefs.HasKey("SelectedSubject"))
         {
             int subjectIndex = PlayerPrefs.GetInt("SelectedSubject");
