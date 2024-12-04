@@ -189,7 +189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Math
+  m_Text: Select
 --- !u!222 &139422604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -737,6 +737,8 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
+    - m_Text: Select
+      m_Image: {fileID: 0}
     - m_Text: Math
       m_Image: {fileID: 0}
     - m_Text: Science
@@ -813,6 +815,7 @@ GameObject:
   - component: {fileID: 457751554}
   - component: {fileID: 457751553}
   - component: {fileID: 457751552}
+  - component: {fileID: 457751556}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -908,6 +911,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 457751556}
+        m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
+        m_MethodName: StartTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &457751554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,6 +961,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457751550}
   m_CullTransparentMesh: 1
+--- !u!114 &457751556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457751550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72e73d9f193cf3441ac2144bae87165b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,7 +1940,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Easy
+  m_Text: Select
 --- !u!222 &940238360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2013,6 +2040,8 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
+    - m_Text: Select
+      m_Image: {fileID: 0}
     - m_Text: Easy
       m_Image: {fileID: 0}
     - m_Text: Hard
