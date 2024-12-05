@@ -292,8 +292,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 52766558}
-        m_TargetAssemblyTypeName: MoveCar, Assembly-CSharp
-        m_MethodName: MoveObject
+        m_TargetAssemblyTypeName: Car, Assembly-CSharp
+        m_MethodName: MoveCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -366,8 +366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 1526004422}
-  moveDirection: {x: 1, y: 0, z: 0}
-  moveDistance: 3.2
 --- !u!1 &96923608
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,8 +626,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104160038}
-        m_TargetAssemblyTypeName: MoveCar, Assembly-CSharp
-        m_MethodName: MoveObject
+        m_TargetAssemblyTypeName: Car, Assembly-CSharp
+        m_MethodName: MoveCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -702,8 +700,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 1526004422}
-  moveDirection: {x: 1, y: 0, z: 0}
-  moveDistance: 3.2
 --- !u!1 &233012857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,8 +2133,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 760834714}
-        m_TargetAssemblyTypeName: MoveCar, Assembly-CSharp
-        m_MethodName: MoveObject
+        m_TargetAssemblyTypeName: Car, Assembly-CSharp
+        m_MethodName: MoveCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2211,8 +2207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 1526004422}
-  moveDirection: {x: 1, y: 0, z: 0}
-  moveDistance: 3.2
 --- !u!1 &795182543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3227,99 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1102503701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102503702}
+  - component: {fileID: 1102503705}
+  - component: {fileID: 1102503704}
+  - component: {fileID: 1102503703}
+  m_Layer: 5
+  m_Name: Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1102503702
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102503701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1698927502}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -845, y: 441}
+  m_SizeDelta: {x: 923, y: 203}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1102503703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102503701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992e6be154087df4db5dd528515d9a7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subject: {fileID: 1102503704}
+--- !u!114 &1102503704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102503701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 150
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Selections
+--- !u!222 &1102503705
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102503701}
+  m_CullTransparentMesh: 1
 --- !u!1 &1126839141
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,7 +3418,7 @@ GameObject:
   - component: {fileID: 1147805672}
   - component: {fileID: 1147805671}
   m_Layer: 0
-  m_Name: Racing Car (1)
+  m_Name: CPU Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3833,8 +3920,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1258030292}
-        m_TargetAssemblyTypeName: MoveCar, Assembly-CSharp
-        m_MethodName: MoveObject
+        m_TargetAssemblyTypeName: Car, Assembly-CSharp
+        m_MethodName: MoveCar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3907,8 +3994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 1526004422}
-  moveDirection: {x: 1, y: 0, z: 0}
-  moveDistance: 3.2
 --- !u!1 &1278435517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4771,11 +4856,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1228192676}
+  - {fileID: 1102503702}
+  - {fileID: 1999100359}
   - {fileID: 1258030287}
   - {fileID: 52766553}
   - {fileID: 760834709}
   - {fileID: 104160033}
-  - {fileID: 1999100359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4959,12 +5045,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999100358}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 992e6be154087df4db5dd528515d9a7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subjectQuestion: {fileID: 1999100360}
+  subject: {fileID: 0}
 --- !u!1 &2019364050
 GameObject:
   m_ObjectHideFlags: 0

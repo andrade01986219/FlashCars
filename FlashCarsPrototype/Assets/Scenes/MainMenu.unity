@@ -855,6 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf06ede3f8c46940a8e03232bd031c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
 --- !u!114 &457751553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,8 +901,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 457751552}
-        m_TargetAssemblyTypeName: StartGameButton, Assembly-CSharp
-        m_MethodName: SwitchScene
+        m_TargetAssemblyTypeName: FlashCars, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -911,8 +912,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 457751556}
-        m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
+      - m_Target: {fileID: 457751552}
+        m_TargetAssemblyTypeName: FlashCars, Assembly-CSharp
         m_MethodName: StartTimer
         m_Mode: 1
         m_Arguments:
@@ -968,11 +969,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457751550}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72e73d9f193cf3441ac2144bae87165b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTimerRunning: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
