@@ -16,7 +16,6 @@ public class Car : MonoBehaviour
             {
                 car.transform.position += moveDirection * speed;
                 position++;
-                FlashCars.UpdateTimer();
                 Debug.Log($"Object is at {position}");
             }
             else

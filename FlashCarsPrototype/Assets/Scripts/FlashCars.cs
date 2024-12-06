@@ -19,6 +19,15 @@ public class FlashCars : MonoBehaviour
         Debug.Log($"Loaded Elapsed Time: {time}");
         DisplayTime(time);
     }
+    void Update()
+    {
+        // Update the timer if it's running
+        if (isTimerRunning)
+        {
+            time += Time.deltaTime/5;
+            DisplayTime(time);
+        }
+    }
     public void LoadGame()
     {
         if (PlayerPrefs.HasKey("SelectedSubject") && PlayerPrefs.HasKey("SelectedDifficulty"))
@@ -45,18 +54,21 @@ public class FlashCars : MonoBehaviour
         if (Car.position >= 0 && Car.position < 6)
         {
             UpdateQuestion();
+            StartTimer();
         }
         user.text = Account.username;
     }
 
     public void PlayAgain()
     {
+        ResetTimer();
         Car.ResetPosition();
         SceneManager.LoadScene("MainMenu");
     }
 
     public void ExitGame()
     {
+        ResetTimer();
         Car.ResetPosition();
         SceneManager.LoadScene("CreateAccount");
     }
@@ -70,6 +82,7 @@ public class FlashCars : MonoBehaviour
     {
         if (Car.position >= 5)
         {
+            StopTimer();
             return true;
         }
         return false;
@@ -91,28 +104,19 @@ public class FlashCars : MonoBehaviour
         answer2T.text = questions.ElementAt(Car.position).Value[1];
     }
 
-    public static void UpdateTimer()
-    {
-        // Update the timer if it's running
-        if (isTimerRunning)
-        {
-            time += Time.deltaTime;
-        }
-    }
-
     public void StartTimer()
     {
         // Start the timer
         isTimerRunning = true;
     }
 
-    public void StopTimer()
+    public static void StopTimer()
     {
         // Stop the timer
         isTimerRunning = false;
     }
 
-    public void ResetTimer()
+    public static void ResetTimer()
     {
         // Reset the timer
         time = 0f;
@@ -123,7 +127,6 @@ public class FlashCars : MonoBehaviour
         // Format the elapsed time as minutes:seconds
         int minutes = Mathf.FloorToInt(time / 60F);
         int seconds = Mathf.FloorToInt(time % 60F);
-        Debug.Log($"{time}");
         timer.text = $"{minutes:00}:{seconds:00}";
     }
 }

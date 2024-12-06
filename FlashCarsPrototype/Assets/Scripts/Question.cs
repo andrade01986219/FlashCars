@@ -110,7 +110,7 @@ public class Question : MonoBehaviour
             {"Who wrote the Declaration of Independence, and when?", new[] {"Thomas Jefferson, 1776", "George Washington, 1775"} },
             {"Why did European nations send explorers across the Atlantic?", new[] {"New trade routes and empires", "Gold mining"} }
         };
-        questionSet["ScienceH"] = new Dictionary<string, string[]>
+        questionSet["ScienceE"] = new Dictionary<string, string[]>
         {
             {"What are the three main states of matter?", new[] {"Solid, liquid, gas", "Solid, air, fire"} },
             {"What process allows plants to make food using sunlight?", new[] {"Photosynthesis", "Respiration"} },
