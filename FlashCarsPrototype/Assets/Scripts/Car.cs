@@ -12,15 +12,30 @@ public class Car : MonoBehaviour
     {
         if (car != null)
         {
-            if (answerButton == 1)
+            if (position % 2 == 0)
             {
-                car.transform.position += moveDirection * speed;
-                position++;
-                Debug.Log($"Object is at {position}");
-            }
-            else
+                if (answerButton == 1)
+                {
+                    car.transform.position += moveDirection * speed;
+                    position++;
+                    Debug.Log($"Object is at {position}");
+                }
+                else
+                {
+                    Debug.Log($"Wong Answer");
+                }
+            } else
             {
-                Debug.Log($"Wong Answer");
+                if (answerButton == 2)
+                {
+                    car.transform.position += moveDirection * speed;
+                    position++;
+                    Debug.Log($"Object is at {position}");
+                }
+                else
+                {
+                    Debug.Log($"Wong Answer");
+                }
             }
 
             if (FlashCars.isWon())

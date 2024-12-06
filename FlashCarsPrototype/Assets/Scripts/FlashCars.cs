@@ -63,14 +63,16 @@ public class FlashCars : MonoBehaviour
     {
         ResetTimer();
         Car.ResetPosition();
-        SceneManager.LoadScene("MainMenu");
+        NPC.ResetNPCPosition();
+        SceneManager.LoadScene("GamePlay");
     }
 
     public void ExitGame()
     {
         ResetTimer();
         Car.ResetPosition();
-        SceneManager.LoadScene("CreateAccount");
+        NPC.ResetNPCPosition();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void UpdateQuestion()
@@ -80,7 +82,7 @@ public class FlashCars : MonoBehaviour
 
     public static bool isWon()
     {
-        if (Car.position >= 5)
+        if (Car.position >= 5 || NPC.position >= 5)
         {
             StopTimer();
             return true;
