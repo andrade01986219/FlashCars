@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 163744765}
   - component: {fileID: 163744764}
   - component: {fileID: 163744763}
+  - component: {fileID: 163744766}
   m_Layer: 5
   m_Name: SignIn
   m_TagString: Untagged
@@ -280,7 +281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 163744764}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 163744766}
+        m_TargetAssemblyTypeName: Account, Assembly-CSharp
+        m_MethodName: CreateAccount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &163744764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,6 +332,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163744761}
   m_CullTransparentMesh: 1
+--- !u!114 &163744766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163744761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1db447e47fc214dacf0f198dbec3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  first: {fileID: 308886753}
+  last: {fileID: 1821367830}
+  user: {fileID: 1059711369}
+  pass: {fileID: 1680773528}
 --- !u!1 &308886751
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +743,7 @@ GameObject:
   - component: {fileID: 666237040}
   - component: {fileID: 666237039}
   - component: {fileID: 666237038}
+  - component: {fileID: 666237041}
   m_Layer: 5
   m_Name: CreateAccount
   m_TagString: Untagged
@@ -784,7 +814,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 666237039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 666237041}
+        m_TargetAssemblyTypeName: Account, Assembly-CSharp
+        m_MethodName: CreateAccount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &666237039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,6 +865,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666237036}
   m_CullTransparentMesh: 1
+--- !u!114 &666237041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666237036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1db447e47fc214dacf0f198dbec3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  first: {fileID: 308886753}
+  last: {fileID: 1821367830}
+  user: {fileID: 1059711369}
+  pass: {fileID: 1680773528}
 --- !u!1 &776191123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,7 +2142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Log in
+  m_Text: Sign In
 --- !u!222 &2132203874
 CanvasRenderer:
   m_ObjectHideFlags: 0

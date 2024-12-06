@@ -3,18 +3,23 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 public class FlashCars : MonoBehaviour
 {
     public static float time = 0f;
     private static bool isTimerRunning = false;
     public Text timer;
+    public Text questionT;
+    public Text answer1T;
+    public Text answer2T;
+    public Text user;
     void Start() // for displaying the timer
     {
         // Display the elapsed time
         Debug.Log($"Loaded Elapsed Time: {time}");
         DisplayTime(time);
     }
-    public void StartGame()
+    public void LoadGame()
     {
         if (PlayerPrefs.HasKey("SelectedSubject") && PlayerPrefs.HasKey("SelectedDifficulty"))
         {
@@ -35,6 +40,32 @@ public class FlashCars : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        if (Car.position >= 0 && Car.position < 6)
+        {
+            UpdateQuestion();
+        }
+        user.text = Account.username;
+    }
+
+    public void PlayAgain()
+    {
+        Car.ResetPosition();
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void ExitGame()
+    {
+        Car.ResetPosition();
+        SceneManager.LoadScene("CreateAccount");
+    }
+
+    public void UpdateQuestion()
+    {
+        AnswerQuestion();
+    }
+
     public static bool isWon()
     {
         if (Car.position >= 5)
@@ -46,13 +77,20 @@ public class FlashCars : MonoBehaviour
 
     public static Dictionary<string, string[]> GenerateQuestion()
     {
-        return null;
+        string subject = PlayerPrefs.GetString("SelectedSubject");
+        string difficulty = PlayerPrefs.GetString("SelectedDifficulty");
+
+        return Question.GetQuestionCatagory(subject, difficulty);
     }
 
-    public static string AnswerQuestion()
+    public void AnswerQuestion()
     {
-        return null;
+        Dictionary<string, string[]> questions = GenerateQuestion();
+        questionT.text = questions.ElementAt(Car.position).Key;
+        answer1T.text = questions.ElementAt(Car.position).Value[0];
+        answer2T.text = questions.ElementAt(Car.position).Value[1];
     }
+
     public static void UpdateTimer()
     {
         // Update the timer if it's running

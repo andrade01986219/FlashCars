@@ -7,14 +7,22 @@ public class Car : MonoBehaviour
     private Vector3 moveDirection = Vector3.right;
     private float speed = 3.2f;
     public static int position = 0;
+    public int answerButton;
     public void MoveCar()
     {
         if (car != null)
         {
-            car.transform.position += moveDirection * speed;
-            position++;
-            FlashCars.UpdateTimer();
-            Debug.Log($"Object is at {position}");
+            if (answerButton == 1)
+            {
+                car.transform.position += moveDirection * speed;
+                position++;
+                FlashCars.UpdateTimer();
+                Debug.Log($"Object is at {position}");
+            }
+            else
+            {
+                Debug.Log($"Wong Answer");
+            }
 
             if (FlashCars.isWon())
             {
@@ -28,6 +36,10 @@ public class Car : MonoBehaviour
         }
     }
 
+    public static void ResetPosition()
+    {
+        position = 0;
+    }
     private void Boost()
     {
         speed = 3.5f;
