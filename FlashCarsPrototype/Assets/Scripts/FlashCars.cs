@@ -95,7 +95,7 @@ public class FlashCars : MonoBehaviour
         string subject = PlayerPrefs.GetString("SelectedSubject");
         string difficulty = PlayerPrefs.GetString("SelectedDifficulty");
 
-        return Question.GetQuestionCatagory(subject, difficulty);
+        return Question.GetQuestionCategory(subject, difficulty);
     }
 
     public void AnswerQuestion()

@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 52766555}
   - component: {fileID: 52766554}
   - component: {fileID: 52766558}
+  - component: {fileID: 52766559}
   m_Layer: 5
   m_Name: Answer2
   m_TagString: Untagged
@@ -302,6 +303,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 52766559}
+        m_TargetAssemblyTypeName: FlashCars, Assembly-CSharp
+        m_MethodName: UpdateQuestion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &52766555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,6 +367,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   car: {fileID: 1526004422}
   answerButton: 2
+--- !u!114 &52766559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52766552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf06ede3f8c46940a8e03232bd031c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  questionT: {fileID: 1999100360}
+  answer1T: {fileID: 748144132}
+  answer2T: {fileID: 795182545}
+  user: {fileID: 0}
 --- !u!1 &96923608
 GameObject:
   m_ObjectHideFlags: 0

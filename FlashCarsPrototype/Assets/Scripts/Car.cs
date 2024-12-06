@@ -22,7 +22,7 @@ public class Car : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log($"Wong Answer");
+                    Debug.Log($"Wrong Answer");
                 }
             } else
             {
@@ -34,13 +34,13 @@ public class Car : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log($"Wong Answer");
+                    Debug.Log($"Wrong Answer");
                 }
             }
 
             if (FlashCars.isWon())
             {
-                Debug.Log("Car has finshed the race");
+                Debug.Log("Car has finished the race");
                 SceneManager.LoadScene("Winner");
             }
         }
