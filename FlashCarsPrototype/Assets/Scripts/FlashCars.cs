@@ -64,7 +64,7 @@ public class FlashCars : MonoBehaviour
         ResetTimer();
         Car.ResetPosition();
         NPC.ResetNPCPosition();
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("GamePlay");
     }
 
     public void ExitGame()
@@ -72,7 +72,7 @@ public class FlashCars : MonoBehaviour
         ResetTimer();
         Car.ResetPosition();
         NPC.ResetNPCPosition();
-        SceneManager.LoadScene("CreateAccount");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void UpdateQuestion()
