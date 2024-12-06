@@ -80,7 +80,7 @@ public class FlashCars : MonoBehaviour
 
     public static bool isWon()
     {
-        if (Car.position >= 5)
+        if (Car.position >= 5 || NPC.position >= 5)
         {
             StopTimer();
             return true;

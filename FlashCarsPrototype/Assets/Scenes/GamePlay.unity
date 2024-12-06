@@ -2021,6 +2021,7 @@ GameObject:
   - component: {fileID: 760834710}
   - component: {fileID: 760834714}
   - component: {fileID: 760834715}
+  - component: {fileID: 760834716}
   m_Layer: 5
   m_Name: StartGame
   m_TagString: Untagged
@@ -2185,6 +2186,21 @@ MonoBehaviour:
   answer1T: {fileID: 748144132}
   answer2T: {fileID: 795182545}
   user: {fileID: 0}
+--- !u!114 &760834716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760834708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d056c35631060949a81fcba8048340e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcCar: {fileID: 1147805670}
+  interval: 4
+  timeElapsed: 0
 --- !u!1 &795182543
 GameObject:
   m_ObjectHideFlags: 0
