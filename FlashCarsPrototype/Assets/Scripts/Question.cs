@@ -68,7 +68,7 @@ public class Question : MonoBehaviour
         {
             string selectedSubject = PlayerPrefs.GetString("SelectedSubject");
             string selectedDifficulty = PlayerPrefs.GetString("SelectedDifficulty");
-            subject.text = $"Selected Subject: {selectedSubject}\nSelected Difficulty: {selectedDifficulty}";
+            subject.text = $"Selected Subject: {selectedSubject}\nSelected Difficulty: {selectedDifficulty}\nusername: {Account.username}";
         }
         else
         {
@@ -82,7 +82,7 @@ public class Question : MonoBehaviour
         {
             {"What is the difference between the value of the digit 9 and the digit 4 in 9,432?", new[] {"8,600", "9,000" } },
             {"If a store has 324 apples and sells 178, how many are left?", new[] {"146", "202"} },
-            {"What is 45 × 3?", new[] {"135", "120"} },
+            {"What is 45 ï¿½ 3?", new[] {"135", "120"} },
             {"Which fraction is greater: 3/4 or 4/3?", new[] {"4/3", "3/4"} },
             {"A rectangle has a length of 8 cm and a width of 4 cm. What is its perimeter?", new[] {"24 cm", "32 cm"} }
         };
@@ -91,7 +91,7 @@ public class Question : MonoBehaviour
             {"Divide 4,872 by 12.", new[] {"406", "408"} },
             {"What is 2/3 x 3/4?", new[] {"1/2", "1/3"} },
             {"What is 12.45 + 9.87?", new[] {"22.32", "21.45"} },
-            {"A rectangular prism has dimensions 5 cm × 3 cm × 4 cm. What is its volume?", new[] {"60 cubic cm", "65 cubic cm"} },
+            {"A rectangular prism has dimensions 5 cm ï¿½ 3 cm ï¿½ 4 cm. What is its volume?", new[] {"60 cubic cm", "65 cubic cm"} },
             {"What is the distance between (3, 4) and (6, 4) on a coordinate plane?", new[] {"3 units", "6 units"} }
         };
         questionSet["HistoryE"] = new Dictionary<string, string[]>

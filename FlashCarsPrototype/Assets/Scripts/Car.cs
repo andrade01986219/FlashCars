@@ -1,5 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Car : MonoBehaviour
 {
@@ -8,15 +10,19 @@ public class Car : MonoBehaviour
     private float speed = 3.2f;
     public static int position = 0;
     public int answerButton;
+
     public void MoveCar()
     {
         if (car != null)
         {
+
+
             if (position % 2 == 0)
             {
                 if (answerButton == 1)
                 {
                     car.transform.position += moveDirection * speed;
+                    
                     position++;
                     Debug.Log($"Object is at {position}");
                 }
