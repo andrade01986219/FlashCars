@@ -13,6 +13,7 @@ public class FlashCars : MonoBehaviour
     public Text answer1T;
     public Text answer2T;
     public Text user;
+    public Text WinMessageText;
     void Start() // for displaying the timer
     {
         // Display the elapsed time
@@ -56,7 +57,6 @@ public class FlashCars : MonoBehaviour
             UpdateQuestion();
             StartTimer();
         }
-        user.text = Account.username;
     }
 
     public void PlayAgain()
@@ -130,5 +130,13 @@ public class FlashCars : MonoBehaviour
         int minutes = Mathf.FloorToInt(time / 60F);
         int seconds = Mathf.FloorToInt(time % 60F);
         timer.text = $"{minutes:00}:{seconds:00}";
+    }
+
+    void OnEnable()
+    {
+        if (WinMessageText != null)
+        {
+            WinMessageText.text = "Congratulations " + Account.username + "!\nYou Win!";
+        }
     }
 }

@@ -315,6 +315,8 @@ GameObject:
   - component: {fileID: 927775409}
   - component: {fileID: 927775411}
   - component: {fileID: 927775410}
+  - component: {fileID: 927775412}
+  - component: {fileID: 927775413}
   m_Layer: 0
   m_Name: WinnerText
   m_TagString: Untagged
@@ -385,6 +387,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927775408}
   m_CullTransparentMesh: 1
+--- !u!114 &927775412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927775408}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc0d9565eef91941aa40e452287c462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car: {fileID: 0}
+  answerButton: 0
+--- !u!114 &927775413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927775408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cf06ede3f8c46940a8e03232bd031c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  questionT: {fileID: 0}
+  answer1T: {fileID: 0}
+  answer2T: {fileID: 0}
+  user: {fileID: 0}
+  WinMessageText: {fileID: 927775410}
 --- !u!1 &1193183976
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +516,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &1520985451
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +903,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!114 &1807080634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,6 +1055,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!114 &2054615660
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -68,7 +68,7 @@ public class Question : MonoBehaviour
         {
             string selectedSubject = PlayerPrefs.GetString("SelectedSubject");
             string selectedDifficulty = PlayerPrefs.GetString("SelectedDifficulty");
-            subject.text = $"Selected Subject: {selectedSubject}\nSelected Difficulty: {selectedDifficulty}";
+            subject.text = $"Selected Subject: {selectedSubject}\nSelected Difficulty: {selectedDifficulty}\nusername: {Account.username}";
         }
         else
         {

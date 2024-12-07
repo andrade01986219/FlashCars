@@ -1591,7 +1591,7 @@ Transform:
   m_GameObject: {fileID: 614628149}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04318576, y: 1.0217556, z: 0.000022888184}
+  m_LocalPosition: {x: 0.04318576, y: 1.0217556, z: 0.00002288818}
   m_LocalScale: {x: 18, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1749,6 +1749,7 @@ MonoBehaviour:
   last: {fileID: 0}
   user: {fileID: 0}
   pass: {fileID: 0}
+  UserNameText: {fileID: 0}
 --- !u!114 &668451034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1766,6 +1767,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &680950050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,6 +2039,7 @@ MonoBehaviour:
   answer1T: {fileID: 748144132}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &760834708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,6 +2231,7 @@ MonoBehaviour:
   answer1T: {fileID: 748144132}
   answer2T: {fileID: 795182545}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!114 &760834716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2339,6 +2343,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 795182545}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &848245351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,7 +3390,7 @@ GameObject:
   - component: {fileID: 1111288969}
   - component: {fileID: 1111288968}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4140,6 +4145,7 @@ MonoBehaviour:
   answer1T: {fileID: 748144132}
   answer2T: {fileID: 795182545}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &1278435517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5216,6 +5222,7 @@ MonoBehaviour:
   answer1T: {fileID: 0}
   answer2T: {fileID: 0}
   user: {fileID: 0}
+  WinMessageText: {fileID: 0}
 --- !u!1 &2019364050
 GameObject:
   m_ObjectHideFlags: 0
