@@ -72,6 +72,6 @@ To ensure FlashCars effectively aligns with key educational topics for 4th and 5
 >      that we watched, and the link they provided in the YouTube description that included links to download the '.gitattributes' and
 >      '.gitignore' files.<br>
 
->        - [Infallible Code Channel](https://www.youtube.com/@InfallibleCode)
->        - [Git LFS Video](https://www.youtube.com/watch?v=_ewoEQFEURg&t=333s)
->        - [.gitattributes & .gitignore Download](https://www.patreon.com/posts/63076977)
+>    - [Infallible Code Channel](https://www.youtube.com/@InfallibleCode)
+>    - [Git LFS Video](https://www.youtube.com/watch?v=_ewoEQFEURg&t=333s)
+>    - [.gitattributes & .gitignore Download](https://www.patreon.com/posts/63076977)
