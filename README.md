@@ -16,7 +16,9 @@
 - Presentation Slides:
     - [PowerPoint](./FlashCars_presentation_slides.pptx)
     - [PDF](./FlashCars_presentation_slides.pdf)
-- [SRS Document](./SRS.pdf)
+- Software Requirements Specification Documents:
+    - [SRS v1](./SRS_v1.pdf)
+    - [SRS v2](./SRS_v2.pdf)
 - [Demonstration Video](./FlashCarsDemo.mp4)
 - [Requirements List](./requirements_and_diagrams/project_requirements.pdf)
 - Diagrams:
