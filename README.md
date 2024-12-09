@@ -14,11 +14,11 @@
 
 - [Prototype](./prototype/flashCars.py)
 - Presentation Slides:
-    - [PowerPoint](./FlashCars_presentation_slides.pptx)
-    - [PDF](./FlashCars_presentation_slides.pdf)
+    - [PowerPoint](./presentation_slides/FlashCars_presentation_slides.pptx)
+    - [PDF](./presentation_slides/FlashCars_presentation_slides.pdf)
 - Software Requirements Specification Documents:
-    - [SRS v1](./SRS_v1.pdf)
-    - [SRS v2](./SRS_v2.pdf)
+    - [SRS v1](./SRS_documents/SRS_v1.pdf)
+    - [SRS v2](./SRS_documents/SRS_v2.pdf)
 - [Demonstration Video](./FlashCarsDemo.mp4)
 - [Requirements List](./requirements_and_diagrams/project_requirements.pdf)
 - Diagrams:
