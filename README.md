@@ -17,7 +17,7 @@
     - [PowerPoint](./FlashCars_presentation_slides.pptx)
     - [PDF](./FlashCars_presentation_slides.pdf)
 - [SRS Document](./SRS.pdf)
-- [Demonstration Video](./demonstration_video.mp4)
+- [Demonstration Video](./FlashCarsDemo.mp4)
 - [Requirements List](./requirements_and_diagrams/project_requirements.pdf)
 - Diagrams:
     - [Use-Case](./requirements_and_diagrams/use_case_diagram.pdf)
